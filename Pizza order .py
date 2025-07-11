@@ -7,6 +7,9 @@ elif size == "M":
     bill+=20
 elif size == "L":
     bill+=25
+else:
+    print("please enter a valid size ")
+
 
 pepperoni = input("do you whant pepperoni on your pizza ? Y or N ? ")
 if pepperoni == "Y" and size == "S":
